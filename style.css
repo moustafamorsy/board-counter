@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: timer;
+    src: url(CursedTimerULiL.woff);
+  }
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article{
+
+    width: 300px;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+
+main{
+    background-color:#1B244A;
+    display: flex;
+    flex-direction: column;
+
+  padding: 50px;
+  
+}
+
+ul{
+    display: flex;
+    list-style: none;
+   
+
+}
+h2{
+    padding: 15px;
+    background-color: black;
+    color: rgb(236, 83, 83);
+    font-size: 75px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+li{
+    padding: 5px;
+    
+   margin-right: 3px;
+   border: 1px solid white;
+   cursor: pointer;
+   border-radius: 5px;
+}
+
+ul , h2{
+   
+    font-family: timer ;
+}
+
+.game{
+    
+ margin: 30px auto;
+
+ padding: 5px 25px;
+
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.txt{
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+h3{
+    padding: 15px;
+    background-color: black;
+    color: rgb(236, 83, 83);
+  align-items: center;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+
+.H{
+    display: none;
+}
+
+.G{
+    display: block;
+}
+
